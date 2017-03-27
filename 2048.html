@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,user-scalable=no" />
+	<title>MrZhangFengfeng_2048</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script typet="text/javascript" src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main2048.js"></script>
+	<script type="text/javascript" src="js/support2048.js"></script>
+	<script type="text/javascript" src="js/showAnination.js"></script>
+</head>
+<body>
+    <div class="mainBox">
+    	<div class="head">
+    		<h1>2048</h1>
+    		<p class="score">Score</br><span id="score">0</span></p>
+    		<p class="best">Best</br><span id="best">0</span></p>
+    	</div>
+    	<div class="start">
+    		<p>Join the numbers and get to the <b>2048 tile!</b></p>
+    		<a href="javascript:newgame();" class="play">New Game</a>
+    	</div>
+
+    	<div id="grid-container">
+    		<div class="grid-cell" id="grid-cell-0-0"></div>
+    		<div class="grid-cell" id="grid-cell-0-1"></div>
+    		<div class="grid-cell" id="grid-cell-0-2"></div>
+    		<div class="grid-cell" id="grid-cell-0-3"></div>
+
+    		<div class="grid-cell" id="grid-cell-1-0"></div>
+    		<div class="grid-cell" id="grid-cell-1-1"></div>
+    		<div class="grid-cell" id="grid-cell-1-2"></div>
+    		<div class="grid-cell" id="grid-cell-1-3"></div>
+
+    		<div class="grid-cell" id="grid-cell-2-0"></div>
+    		<div class="grid-cell" id="grid-cell-2-1"></div>
+    		<div class="grid-cell" id="grid-cell-2-2"></div>
+    		<div class="grid-cell" id="grid-cell-2-3"></div>
+
+    		<div class="grid-cell" id="grid-cell-3-0"></div>
+    		<div class="grid-cell" id="grid-cell-3-1"></div>
+    		<div class="grid-cell" id="grid-cell-3-2"></div>
+    		<div class="grid-cell" id="grid-cell-3-3"></div>
+    	</div>
+
+    	<div class="game-info">
+	    	<p class="game-explanation">
+	      		<b>How to play:</b> Use your <b> arrow keys</b> to move the tiles. When two tiles with the <b>same number</b> touch, they <b>merge into one!</b>
+	    	</p>
+    	</div>
+    	<div class="copyright">
+    		<p>©2016 MrZhangFengfeng copyright</p>
+    	</div>
+    </div>
+</body>
+</html>
